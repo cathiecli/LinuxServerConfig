@@ -121,7 +121,7 @@ Configure the setting for user `grader`
 Log in to the virtual Amazon Lightsail server as `grader`
 
 ```
-cathi@DESKTOP-P5IQ5TI MINGW64 ~/.ssh
+cathi@[My Local] ~/.ssh
 $ ssh -i ~/.ssh/udacity_key.rsa grader@3.135.204.225
 ```
 
@@ -140,7 +140,7 @@ Restart service and login in with the new port
 ```
 grader@ip-[private IP]:~$ sudo service ssh restart
 grader@ip-[private IP]:~$ exit
-cathi@DESKTOP-P5IQ5TI MINGW64 ~
+cathi@[My Local] ~
 $ ssh -i ~/.ssh/udacity_key.rsa -p 2200 grader@3.135.204.225
 ```
 
