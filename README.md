@@ -12,6 +12,8 @@ The web server is [Apache2](https://help.ubuntu.com/lts/serverguide/httpd.html).
 
 The database server is [PostgreSQL](https://www.postgresql.org/).
 
+The deployed website is http://3.135.204.225 or http://ec2-3-135-204-225.us-east-2.compute.amazonaws.com/.
+
 
 **IP Address:** `3.135.204.225`
 
