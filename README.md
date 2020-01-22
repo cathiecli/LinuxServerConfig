@@ -140,7 +140,9 @@ grader@ip-[private IP]:~$ sudo vi /etc/ssh/sshd_config
 ```
 
 Set `PasswordAuthentication` to `no`
+
 Set `PermitRootLogin` to `no`
+
 Change SSH login port from `22` to `2200`
 
 Restart service and login in with the new port
