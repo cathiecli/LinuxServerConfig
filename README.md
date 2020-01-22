@@ -14,9 +14,10 @@ The database server is [PostgreSQL](https://www.postgresql.org/).
 
 The deployed website is http://3.135.204.225 or http://ec2-3-135-204-225.us-east-2.compute.amazonaws.com/.
 
-*IP Address: `3.135.204.225`
 
-*URL: http://ec2-3-135-204-225.us-east-2.compute.amazonaws.com/
+**IP Address:** `3.135.204.225`
+
+**URL:** http://ec2-3-135-204-225.us-east-2.compute.amazonaws.com/
 
 
 #### Step 1: Set up a new Ubuntu Linux server instance on [Amazon Lightsail](https://lightsail.aws.amazon.com)
@@ -512,10 +513,10 @@ This project is licensed under the cl9451
 
 ### Inspiration, code snippets, etc.
 
-[Google Developer APIs & Services](https://console.developers.google.com/apis).
+[Google Developer APIs & Services](https://console.developers.google.com/apis)
 
-[facebook for developers](https://developers.facebook.com/apps).
+[facebook for developers](https://developers.facebook.com/apps)
 
-[GitHub Basic writing and formatting syntax](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax).
+[GitHub Basic writing and formatting syntax](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)
 
-[Dillinger](https://dillinger.io/).
+[Dillinger](https://dillinger.io/)
