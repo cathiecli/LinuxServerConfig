@@ -2,15 +2,15 @@
 
 This is a project for **Full Stack Web Devloper Nanodegree**.  `README.md` explains how to set up and secure a Linux distribution on a virtual machine, install and configure a web and a database server to host a web application.
 
-The Linux distribution is [Ubuntu](https://ubuntu.com/download/server) 16.04.6 LTS (Xenial Xerus).
-The virtual private server is [Amazon Lightsail](https://lightsail.aws.amazon.com).
-The web application is my [Item Catalog project](https://github.com/cathiecli/ItemCatalog).
-The web server is [Apache2](https://help.ubuntu.com/lts/serverguide/httpd.html).
-The database server is [PostgreSQL](https://www.postgresql.org/).
-The deployed website is http://3.135.204.225 or http://ec2-3-135-204-225.us-east-2.compute.amazonaws.com/.
+*The Linux distribution is [Ubuntu](https://ubuntu.com/download/server) 16.04.6 LTS (Xenial Xerus).
+*The virtual private server is [Amazon Lightsail](https://lightsail.aws.amazon.com).
+*The web application is my [Item Catalog project](https://github.com/cathiecli/ItemCatalog).
+*The web server is [Apache2](https://help.ubuntu.com/lts/serverguide/httpd.html).
+*The database server is [PostgreSQL](https://www.postgresql.org/).
+*The deployed website is http://3.135.204.225 or http://ec2-3-135-204-225.us-east-2.compute.amazonaws.com/.
 
-IP Address: `3.135.204.225`
-URL: http://ec2-3-135-204-225.us-east-2.compute.amazonaws.com/
+*IP Address: `3.135.204.225`
+*URL: http://ec2-3-135-204-225.us-east-2.compute.amazonaws.com/
 
 
 #### Step 1: Set up a new Ubuntu Linux server instance on [Amazon Lightsail](https://lightsail.aws.amazon.com)
@@ -133,6 +133,7 @@ grader@ip-[private IP]:~$ sudo vi /etc/ssh/sshd_config
 ```
 
 Set `PasswordAuthentication` to `no`
+Set `PermitRootLogin` to `no`
 Change SSH login port from `22` to `2200`
 
 Restart service and login in with the new port
@@ -503,7 +504,8 @@ This project is licensed under the cl9451
 [chuanqin3/udacity-linux-configuration](https://github.com/chuanqin3/udacity-linux-configuration)
 
 ### Inspiration, code snippets, etc.
-    [Google Developer APIs & Services](https://console.developers.google.com/apis)
-    [facebook for developers](https://developers.facebook.com/apps)
-    [GitHub Basic writing and formatting syntax](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)
-    [Dillinger](https://dillinger.io/)
+
+[Google Developer APIs & Services](https://console.developers.google.com/apis).
+[facebook for developers](https://developers.facebook.com/apps).
+[GitHub Basic writing and formatting syntax](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax).
+[Dillinger](https://dillinger.io/).
